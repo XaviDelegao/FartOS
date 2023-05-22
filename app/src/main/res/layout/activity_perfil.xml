@@ -1,0 +1,122 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorFondo">
+
+    <!-- Título -->
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center_horizontal"
+        android:text="Mi perfil"
+        android:textSize="24sp"
+        android:fontFamily="@font/impact"
+
+        />
+
+    <!-- Usuario -->
+    <TextView
+        android:id="@+id/label_usuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Usuario:"
+        android:textSize="18sp"
+        android:layout_below="@+id/titulo"
+        android:layout_marginStart="16dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/impact"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Juan123"
+        android:textSize="18sp"
+        android:layout_below="@+id/titulo"
+        android:layout_toEndOf="@+id/label_usuario"
+        android:layout_marginStart="16dp"
+        android:fontFamily="@font/impact"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Código de usuario -->
+    <TextView
+        android:id="@+id/label_codigo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/usuario"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="36dp"
+        android:text="Código de usuario:"
+        android:textSize="18sp"
+        android:fontFamily="@font/impact"
+        />
+
+    <TextView
+        android:id="@+id/codigo_usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="123456"
+        android:textSize="18sp"
+        android:layout_below="@+id/usuario"
+        android:layout_toEndOf="@+id/label_codigo"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="36dp"
+        android:fontFamily="@font/impact"/>
+
+    <!-- Partidas ganadas -->
+    <TextView
+        android:id="@+id/label_partidas_ganadas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Partidas ganadas:"
+        android:textSize="18sp"
+        android:layout_below="@+id/codigo_usuario"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="36dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/impact"/>
+
+    <TextView
+        android:id="@+id/partidas_ganadas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="5"
+        android:textSize="18sp"
+        android:layout_below="@+id/codigo_usuario"
+        android:layout_toEndOf="@+id/label_partidas_ganadas"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="36dp"
+        android:fontFamily="@font/impact"/>
+
+    <!-- Partidas perdidas -->
+    <TextView
+        android:id="@+id/label_partidas_perdidas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Partidas perdidas:"
+        android:textSize="18sp"
+        android:layout_below="@+id/partidas_ganadas"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="36dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/impact"/>
+
+
+    <TextView
+        android:id="@+id/partidas_perdidas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3"
+        android:textSize="18sp"
+        android:layout_below="@+id/partidas_ganadas"
+        android:layout_toEndOf="@+id/label_partidas_perdidas"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="36dp"
+        android:fontFamily="@font/impact"/>
+
+</RelativeLayout>

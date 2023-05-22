@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Introduce el nombre de los jugadores"/>
+
+    <EditText
+        android:id="@+id/editTextPlayer1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Jugador 1"/>
+
+    <EditText
+        android:id="@+id/editTextPlayer2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Jugador 2"/>
+
+    <EditText
+        android:id="@+id/editTextPlayer3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Jugador 3"/>
+
+</LinearLayout>

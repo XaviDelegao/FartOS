@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorFondo">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:layout_margin="16dp">
+
+    <TextView
+        android:id="@+id/tv_volume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/volume"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:drawableStart="@drawable/volumen"
+        android:drawablePadding="8dp"
+        android:layout_gravity="center_horizontal"
+        />
+
+
+    <SeekBar
+        android:id="@+id/seekbar_volume"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"/>
+
+
+
+  <CheckBox
+      android:id="@+id/mute_checkbox"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerHorizontal="true"
+      android:text="@string/mute"
+      android:layout_marginTop="32dp"
+      android:layout_gravity="center_horizontal"/>
+
+  <RadioGroup
+      android:id="@+id/language_radio_group"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:layout_below="@id/mute_checkbox"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="32dp"
+      android:layout_gravity="center_horizontal">
+
+    <RadioButton
+        android:id="@+id/english_radio_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/english"/>
+
+    <RadioButton
+        android:id="@+id/spanish_radio_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/spanish"/>
+
+    <RadioButton
+        android:id="@+id/french_radio_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/french"/>
+  </RadioGroup>
+
+  <Button
+      android:id="@+id/save_button"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/save"
+      android:layout_below="@id/language_radio_group"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="32dp"
+      android:backgroundTint="@color/colorPrimary"
+      android:layout_gravity="center_horizontal"/>
+  </LinearLayout>
+</RelativeLayout>

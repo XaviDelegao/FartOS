@@ -1,0 +1,25 @@
+<resources>
+
+    <string name="app_name">Tres En Raya</string>
+
+    <string name="un_jugador">1 player</string>
+    <string name="dos_jugadores">2 players</string>
+
+    <string name="facil">Easy</string>
+    <string name="normal">Normal</string>
+    <string name="imposible">Insane</string>
+
+    <string name="gana_jugador1">PLAYER 1 WINS!</string>
+    <string name="gana_jugador2">PLAYER 2 WINS!</string>
+    <string name="empate">TIE!</string>
+
+    <string name="volume">Adjust Volume</string>
+    <string name="mute">Mute</string>
+    <string name="english">English</string>
+    <string name="spanish">Spanish</string>
+    <string name="french">French</string>
+
+    <string name="save">Save</string>
+    <string name="history">History</string>
+
+</resources>

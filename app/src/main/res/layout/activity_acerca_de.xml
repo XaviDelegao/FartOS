@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/colorFondo">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="XakeKFC S.L."
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="50dp"
+        android:fontFamily="@font/impact"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Somos una empresa de videojuegos innovadora y apasionada por la tecnología. \n \n En XakeKFC S.L. nos especializamos en crear experiencias de juego únicas y emocionantes para jugadores de todas las edades. Desde nuestros juegos clásicos hasta nuestros títulos más recientes, nos esforzamos por ofrecer una jugabilidad excepcional, gráficos impresionantes y una historia cautivadora. Nuestro equipo de desarrolladores y diseñadores trabaja arduamente para ofrecer una experiencia de juego sin igual en cada uno de nuestros títulos. ¡Únete a nosotros en nuestra emocionante aventura en el mundo de los videojuegos!"
+        android:layout_marginBottom="70dp"/>
+
+    <Button
+        android:id="@+id/btn_volver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Volver"
+        android:backgroundTint="@color/colorPrimary"
+        android:layout_gravity="center_horizontal"
+        />
+</LinearLayout>
